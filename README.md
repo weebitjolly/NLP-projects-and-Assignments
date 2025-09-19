@@ -3,15 +3,15 @@
 # Financial News Sentiment Analysis: N-gram Generation and Analysis
 This repository contains a Python script, ngrams.py, that performs n-gram analysis on a dataset of financial news headlines. The script preprocesses the text, generates unigrams, bigrams, and trigrams, and then analyzes their frequency. It also builds and evaluates language models using different smoothing and interpolation techniques.
 
-#Prerequisites
+## Prerequisites
 To run this script, you'll need to have Python and the following libraries installed. You can install them using pip:
 
-# Bash
+### Bash
 
 pip install pandas scikit-learn nltk kagglehub matplotlib wordcloud
 Additionally, the script uses the NLTK library, which requires downloading specific data corpora. The script includes code to automatically download these, but if you encounter any issues, you can download them manually by running the following in a Python interpreter or a separate script:
 
-Python
+### Python
 
 import nltk
 nltk.download('stopwords')
@@ -21,7 +21,7 @@ Download the script: Ensure you have the ngrams.py file.
 
 Run from your terminal: Open a terminal or command prompt, navigate to the directory where you saved the file, and run the script using the Python interpreter:
 
-Bash
+### Bash
 
 python ngrams.py
 What the Script Does
